@@ -1,0 +1,30 @@
+/*------Form Styling------*/
+form { background-color: #FFF; 
+}input,select { background-color: rgb(10, 10, 10, .16) !important; border: 1px solid #c3b32c; 
+  padding: 12px 15px; margin: 10px 0; width: 100%; border-radius: 0 !important; font-size: 11pt;
+}input:focus{ outline: none; border:1px solid #abd7dc; box-shadow: 0 0 2px #414141}
+
+.login h3 {
+  font-family: 'Quicksand';
+  font-size: 30pt;
+  color: #b7af4c;
+}
+
+.login h4 {
+  font-family:'Open Sans Condensed';
+  font-size: 20pt;
+  color: #a63682;
+  text-transform: uppercase;
+}
+
+.login a {
+  text-decoration: none;
+  font-family: 'Quicksand';
+  font-weight: 500;
+}
+
+.login .form-group label {
+    font-family: 'Quicksand';
+    color: #c3b32c;
+    font-weight: 500;
+}
